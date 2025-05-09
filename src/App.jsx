@@ -1,9 +1,10 @@
 import React from "react";
+import PasswordGenerator from "./components/PasswordGenerator";
 
 function App() {
   return (
-    <div>
-      <h1 className="text-xl text-center">Hello world</h1>
+    <div className="min-h-screen flex items-center justify-center bg-gray-800">
+      <PasswordGenerator />
     </div>
   );
 }
